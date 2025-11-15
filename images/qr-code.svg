@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- QR Code placeholder SVG -->
+  <rect width="200" height="200" fill="white"/>
+  
+  <!-- Position detection patterns (corners) -->
+  <g fill="black">
+    <!-- Top-left -->
+    <rect x="0" y="0" width="49" height="49"/>
+    <rect x="8" y="8" width="33" height="33" fill="white"/>
+    <rect x="16" y="16" width="17" height="17" fill="black"/>
+    
+    <!-- Top-right -->
+    <rect x="151" y="0" width="49" height="49"/>
+    <rect x="159" y="8" width="33" height="33" fill="white"/>
+    <rect x="167" y="16" width="17" height="17" fill="black"/>
+    
+    <!-- Bottom-left -->
+    <rect x="0" y="151" width="49" height="49"/>
+    <rect x="8" y="159" width="33" height="33" fill="white"/>
+    <rect x="16" y="167" width="17" height="17" fill="black"/>
+  </g>
+  
+  <!-- Data area pattern -->
+  <g fill="black" opacity="0.8">
+    <rect x="60" y="60" width="10" height="10"/>
+    <rect x="80" y="70" width="8" height="8"/>
+    <rect x="100" y="60" width="12" height="12"/>
+    <rect x="120" y="80" width="10" height="10"/>
+    <rect x="70" y="100" width="8" height="8"/>
+    <rect x="90" y="110" width="10" height="10"/>
+    <rect x="110" y="100" width="8" height="8"/>
+    <rect x="130" y="120" width="12" height="12"/>
+    <rect x="60" y="130" width="10" height="10"/>
+    <rect x="80" y="140" width="8" height="8"/>
+    <rect x="100" y="130" width="10" height="10"/>
+    <rect x="120" y="150" width="8" height="8"/>
+  </g>
+  
+  <!-- Center icon (payment) -->
+  <circle cx="100" cy="100" r="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="100" y="110" font-size="30" fill="black" text-anchor="middle" font-weight="bold">₹</text>
+</svg>

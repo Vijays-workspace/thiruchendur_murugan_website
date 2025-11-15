@@ -1,0 +1,59 @@
+# Git Ignore - Thiruchendur Murugan Restaurant
+
+# Environment files (contain sensitive data)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Node modules (if using Node later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Configuration backups
+*.bak
+*.backup
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Security keys (if added)
+*.pem
+*.key
+*.cert
+
+# Local testing
+local_test.html
+test_*.js
